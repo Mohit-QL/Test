@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Navbar and Banner</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f9f5;
+            /* Light background */
+            color: #606261;
+            /* Text color */
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: #608ab2;
+            /* Blue color */
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: #f8ffff;
+            /* Light text color */
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            margin: 0 15px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #606261;
+            /* Hover effect */
+            border-radius: 5px;
+        }
+
+        /* Banner Section Styles */
+        .banner {
+            background-image: url('https://via.placeholder.com/1920x600?text=High+Quality+Image');
+            /* Example image, replace with your own */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f8ffff;
+            /* Text color */
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 50px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Call to Action Button */
+        .banner .cta-button {
+            background-color: #608ab2;
+            /* Button color */
+            color: #f8ffff;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .banner .cta-button:hover {
+            background-color: #696969;
+            /* Darker hover effect */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">MyWebsite</a>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <div>
+            <h1>Welcome to Our Website</h1>
+            <p>Explore our services and offerings</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
